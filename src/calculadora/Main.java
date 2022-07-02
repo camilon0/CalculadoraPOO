@@ -6,11 +6,10 @@ import javax.swing.JOptionPane;
 public class Main {
 
 	public static void main(String[] args) {
-		
+		// variables
 		double num1, num2, numBase, numPotencia, numRaiz;
 		int opcion = 0;
-		
-		
+
 		DecimalFormat resultado = new DecimalFormat ("0.00");
 		ClsCalculadora operaciones = new ClsCalculadora();
 				
@@ -113,7 +112,6 @@ public class Main {
 			
 		default:
 			
-			//if (opcion.isNumeric);
 			try {
 			JOptionPane.showMessageDialog(null,"Opcion no valida, solo entre 1 y 6 o 7 para finalizar:"+"\n"+"","ERROR",JOptionPane.INFORMATION_MESSAGE );
 			}catch(Exception ex) {
@@ -124,7 +122,7 @@ public class Main {
 		}catch(Exception ex) {
 			JOptionPane.showMessageDialog(null,"No es un numero, ingrese nuevamente" );
 		}
-		} while(opcion!=7);
+		}while(opcion!=7);
 		
 	
 		}		

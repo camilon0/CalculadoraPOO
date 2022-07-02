@@ -4,8 +4,6 @@ package calculadora;
 
 public class ClsCalculadora {
 	
-	
-	
 	public double suma(double num1, double num2) {
 		double resultado = 0;
 		resultado = num1 + num2;
@@ -32,7 +30,7 @@ public class ClsCalculadora {
 	
 	public double potencia(double numBase, double numPotencia) {
 		double resultado = 0;
-		resultado = Math.pow(numBase, numPotencia);
+		resultado = Math.pow(numBase, numPotencia);		
 		return resultado;
 	}
 	
